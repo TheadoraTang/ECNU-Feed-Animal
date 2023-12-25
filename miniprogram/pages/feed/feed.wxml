@@ -1,0 +1,19 @@
+<!-- feed.wxml -->
+
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">喂食打卡</text>
+</view>
+
+<view class="content">
+  <view class="picker-container">
+    <text class="label">选择地点：</text>
+    <picker mode="selector" range="{{plotOptions}}" bindchange="bindPickerChange">
+      <view class="picker">
+        {{selectedPlot}}
+      </view>
+    </picker>
+  </view>
+
+  <button class="submit-button" bindtap="submitFeed">提交</button>
+</view>

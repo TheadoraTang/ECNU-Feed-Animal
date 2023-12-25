@@ -1,0 +1,14 @@
+<!--pages/plot2/plot2.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">牛奶棚</text>
+</view>
+<view class="background-image">
+<view class="content-container">
+  <image class="main-image" src="/images/牛奶棚.jpg"></image>
+  <image class="map-image" src="/images/牛奶棚地图.jpg"></image>
+  <text class="location-text">
+    位置在牛奶棚对面凹进去的位置，在一个教师教育学院门口的侧面，靠近草丛。（表情包所在位置）
+  </text>
+</view>
+</view>

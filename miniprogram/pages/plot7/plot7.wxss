@@ -1,0 +1,31 @@
+/* pages/plot7/plot7.wxss */
+
+.content-container {
+  padding: 30px;
+  margin-top: 50px;
+  /* background-color:#FDE9D4; */
+}
+
+.background-image {
+  background-image: url('https://6563-ecnuanimal-8gjgfbk49bd27e44-1323199857.tcb.qcloud.la/bk.png?sign=67b89520c816120996ca07191871ec15&t=1702901627');
+  /* opacity: 0.5; 设置透明度为 0.5 */
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure it is behind other elements */
+}
+
+.main-image, .map-image {
+  width: 100%;
+  border-radius: 10px; /* Add rounded corners to images */
+  margin-bottom: 10px;
+}
+
+.location-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333; /* Darker text color */
+}

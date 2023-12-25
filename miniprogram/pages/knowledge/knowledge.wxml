@@ -1,0 +1,13 @@
+<view class="global-background">
+  <!-- 页面内容 -->
+  <view class="container">
+    <view class="title">文章目录</view>
+    <scroll-view scroll-y="{{scrollY}}" class="scroll-view">
+      <block wx:for="{{articles}}" wx:key="index">
+        <view class="article-item" bindtap="navigateToDetail" data-name="{{item}}">
+          {{item}}
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/plot7/plot7.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">五舍后</text>
+</view>
+<view class="background-image">
+<view class="content-container">
+  <image class="main-image" src="/images/五舍后.jpg"></image>
+  <image class="map-image" src="/images/五舍后地图.jpg"></image>
+  <text class="location-text">
+    喂食点在五舍的后面，十一舍正门对面。（表情包所在位置）
+  </text>
+</view>
+</view>

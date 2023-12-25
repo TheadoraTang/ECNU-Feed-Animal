@@ -1,0 +1,27 @@
+<!--pages/plot5/plot5.wxml-->
+<view class="page">
+  <scroll-view class="scroll-view" scroll-y="true" style="height: 100vh;">
+  <view class="header">
+    <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+    <text class="header-title">大活+篮球场+共青场</text>
+  </view>
+    <view class="background-image"></view>
+    <view class="content-container">
+      <image class="main-image" src="/images/大活.jpg"></image>
+      <image class="map-image" src="/images/大活地图.jpg"></image>
+      <text class="location-text">
+        大活喂食点在全家与夏雨岛中间体操房的侧面。（表情包所在位置）
+      </text>
+      <image class="main-image" src="/images/共青场小桥.jpg"></image>
+      <image class="map-image" src="/images/共青场地图.jpg"></image>
+      <text class="location-text">
+        共青场喂食点就在共青场入口侧面的草丛里。（表情包所在位置）
+      </text>
+      <image class="main-image" src="/images/篮球场.jpg"></image>
+      <image class="map-image" src="/images/篮球场地图.jpg"></image>
+      <text class="location-text">
+        篮球场的喂食点在篮球场入口正对面，留学生宿舍侧门，很明显（表情包所在位置）
+      </text>
+    </view>
+  </scroll-view>
+</view>

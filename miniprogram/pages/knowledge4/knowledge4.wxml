@@ -1,0 +1,16 @@
+<!--pages/knowledge4/knowledge4.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">怀孕母猫救助</text>
+</view>
+<view class="background-image">
+  <view class="content-container">
+  <text class="knowledge-text">
+    猫咪怀孕的特征是肚子比其他部位明显要大。有一些猫全身上下都比较胖，肚子大并不是怀孕的体现而是因为本身肉多。
+    遇到疑似怀孕的母猫需要先检查性别（尾巴下有蛋蛋的是公猫），遇到这种情况请及时向动保反应，动保会尽快对猫咪进行引产处理。
+
+    关于引产：
+    对于流浪猫来说，在野外生下小猫并不是很好的选择，生产对母猫的身体伤害很大，且小猫的成活率很低，最后很容易造成母子俱亡。所以动保选择对猫咪进行引产处理。
+  </text>
+</view>
+</view>

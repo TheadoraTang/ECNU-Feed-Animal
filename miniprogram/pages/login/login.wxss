@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://6563-ecnuanimal-8gjgfbk49bd27e44-1323199857.tcb.qcloud.la/bk2.jpg?sign=22b5f134bd52797ec85f342ae980ffb7&t=1703227373');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nickName {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  background-color: #007AFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.text-error {
+  color: red;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  input, button {
+    width: 100%;
+  }
+}

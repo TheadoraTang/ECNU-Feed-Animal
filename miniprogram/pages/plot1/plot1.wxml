@@ -1,0 +1,14 @@
+<!--pages/plot1/plot1.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">七舍</text>
+</view>
+<view class="background-image">
+<view class="content-container">
+  <image class="main-image" src="/images/七舍.jpg"></image>
+  <image class="map-image" src="/images/七舍地图.jpg"></image>
+  <text class="location-text">
+    位置在七舍正对面丰巢柜子的背面（表情包所在位置）
+  </text>
+</view>
+</view>

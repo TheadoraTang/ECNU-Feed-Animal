@@ -1,0 +1,15 @@
+<view class="feed-list-container">
+  <block wx:for="{{feedPoints}}" wx:key="index">
+    <view class="feed-item" bindtap="navigateToDetail" data-name="{{item}}">
+      <!-- 显示照片 -->
+      <image class="feed-image" src="{{'/images/' + item + '.png'}}"></image>
+      <!-- 显示名称 -->
+      <text class="feed-name">{{item}}</text>
+      <!-- 显示最近的喂食时间 -->
+      <text class="feed-time" style="{{feedTimes[item] ? 'color: #00CC00; background-color: #EAFBF7' : 'color: #FF6666; background-color: #FCE4E4'}}">
+        {{feedTimes[item] ? '猪咪进食' + feedTimes[item] + '次' : '猪咪还未进食'}}
+      </text>
+      <image class="feed-image-2" src="/images/forward.png"></image>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/knowledge2/knowledge2.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">奶猫救助</text>
+</view>
+<view class="background-image">
+  <view class="content-container">
+  <text class="knowledge-text">
+    不要上手！不要上手！不要上手！
+    猫妈妈对味道很敏感，奶猫身上一旦沾上人的味道，猫妈妈就可能会弃养奶猫。正常情况下猫妈妈养奶猫比人工养奶猫成活率要高很多，人工养育的死亡概率极高。如迫不得已，必须带上塑料手套进行转移。
+    如果遇见奶猫，请观察猫妈妈是否在一旁。如有，请安心离开；如无，请联系动保，千万不要自己动手摸。动保将进行后续观察，如确定没有猫妈妈照顾，将依据情况会对奶猫进行收容。
+  </text>
+</view>
+</view>

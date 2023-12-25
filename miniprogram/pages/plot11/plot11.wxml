@@ -1,0 +1,22 @@
+<!--pages/plot11/plot11.wxml-->
+<view class="page">
+  <scroll-view class="scroll-view" scroll-y="true" style="height: 100vh;">
+  <view class="header">
+    <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+    <text class="header-title">国汉+设计中心</text>
+  </view>
+    <view class="background-image"></view>
+    <view class="content-container">
+      <image class="main-image" src="/images/国汉.jpg"></image>
+      <image class="map-image" src="/images/国汉地图.jpg"></image>
+      <text class="location-text">
+        图书馆喂食点在图书馆正对面的草坪西侧，有一个办公室的门口，比较隐蔽。（表情包所在位置）
+      </text>
+      <image class="main-image" src="/images/设计中心.jpg"></image>
+      <image class="map-image" src="/images/设计中心地图.jpg"></image>
+      <text class="location-text">
+        河东小桥的喂食点在赤水桥那块石头旁边（表情包所在位置）
+      </text>
+    </view>
+  </scroll-view>
+</view>

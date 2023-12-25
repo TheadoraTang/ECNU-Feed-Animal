@@ -1,0 +1,43 @@
+/* pages/map/map.wxss */
+/* map.wxss */
+.feed-list {
+  margin-top: 15px;
+  padding: 10px;
+}
+.feed-list-container {
+  background-image: url('https://6563-ecnuanimal-8gjgfbk49bd27e44-1323199857.tcb.qcloud.la/bk.png?sign=a4c13300e40ee02f43c747d055dc0fa3&t=1702893468');
+  background-size: cover;
+  background-attachment: fixed; /* 设置背景图不随滑轮滑动而移动 */
+}
+
+.feed-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feed-image {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.feed-image-2 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.feed-name {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.feed-time {
+  font-size: 12px;
+}

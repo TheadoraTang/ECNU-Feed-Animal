@@ -1,0 +1,46 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+.back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  /* 其他样式... */
+}
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+
+page {
+  /* background: #f6f6f6; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 80rpx; 
+}
+
+.global-background {
+  background-image: url('https://6563-ecnuanimal-8gjgfbk49bd27e44-1323199857.tcb.qcloud.la/bk2.jpg?sign=7e609916cf9a372bd9ddae3628b9bcf7&t=1702893042');
+  /* opacity: 0.5; 设置透明度为 0.5 */
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure it is behind other elements */
+}

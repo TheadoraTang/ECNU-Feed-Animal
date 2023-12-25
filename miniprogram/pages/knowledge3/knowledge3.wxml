@@ -1,0 +1,13 @@
+<!--pages/knowledge3/knowledge3.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">弃猫救助</text>
+</view>
+<view class="background-image">
+  <view class="content-container">
+  <text class="knowledge-text">
+    首先明确弃猫的一些特征：亲人，身上比较干净，有一定概率是品种猫。
+    弃猫一般由不负责任的主人遗弃，ECNU阳光动保不负责救助弃猫，如果猫咪有明显的健康问题或者发情情况（比较直观的是叫声比较频繁），可以向阳光动保反应。
+  </text>
+</view>
+</view>

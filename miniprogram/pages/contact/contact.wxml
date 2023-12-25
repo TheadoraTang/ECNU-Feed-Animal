@@ -1,0 +1,6 @@
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">联系我们</text>
+</view>
+
+<image src="/images/cat.jpg" mode="aspectFill" style="height: 450px;margin-top: 50px;margin-left: 8%;margin-right: 8%;"></image>

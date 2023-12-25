@@ -1,0 +1,14 @@
+<!--pages/plot4/plot4.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">脑所</text>
+</view>
+<view class="background-image">
+<view class="content-container">
+  <image class="main-image" src="/images/脑所.jpg"></image>
+  <image class="map-image" src="/images/脑所地图.jpg"></image>
+  <text class="location-text">
+    位置在脑所前面草丛的竹林内侧，最靠外的那个竹林（表情包所在位置）
+  </text>
+</view>
+</view>

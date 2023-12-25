@@ -1,0 +1,4 @@
+/* pages/contact/contact.wxss */
+page{
+  background-color: #fde9d4;
+}

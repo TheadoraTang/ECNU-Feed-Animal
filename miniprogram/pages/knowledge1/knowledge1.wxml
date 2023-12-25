@@ -1,0 +1,14 @@
+<!--pages/knowledge1/knowledge1.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">救助原则</text>
+</view>
+<view class="background-image">
+  <view class="content-container">
+  <text class="knowledge-text">
+    由于经费以及能力有限，阳光小动物保护协会只负责校园内的流浪猫狗的生存。校外流浪猫狗不予以救助。
+    同时，阳光动保对弃猫行为表示强力的谴责。
+    阳光小动物保护协会不接受任何形式的弃猫，也不会救助恶意丢弃的奶猫/成年猫/病猫等等。
+  </text>
+</view>
+</view>

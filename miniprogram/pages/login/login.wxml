@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="avatar" wx:if="{{userInfo}}">
+    <image src="{{userInfo.avatarUrl}}" mode="aspectFill"></image>
+  </view>
+  <view class="nickName" wx:if="{{userInfo}}">
+    {{userInfo.nickName}}
+  </view>
+  <view wx:if="{{authenticated}}">
+    <!-- If authenticated, show success message and navigate to index page -->
+    <text>用户认证成功</text>
+    <button bindtap="navigateToIndex">进入首页</button>
+  </view>
+  <view wx:else>
+    <!-- If not authenticated, show input fields for name and id -->
+    <input placeholder="请输入您的姓名" bindinput="bindNameInput" />
+    <input placeholder="请输入您的校园卡卡号" bindinput="bindIdInput" />
+    <button bindtap="onLogin">登录</button>
+    <text wx:if="{{authFailed}}" style="color: red;">用户认证失败</text>
+  </view>
+</view>

@@ -1,0 +1,74 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/getOpenId/index",
+    "pages/getMiniProgramCode/index",
+    "pages/deployService/index",
+    "pages/createCollection/index",
+    "pages/uploadFile/index",
+    "pages/selectRecord/index",
+    "pages/updateRecord/index",
+    "pages/updateRecordResult/index",
+    "pages/updateRecordSuccess/index",
+    "pages/sumRecord/index",
+    "pages/sumRecordResult/index",
+    "pages/contact/contact",
+    "pages/feed/feed",
+    "pages/map/map",
+    "pages/knowledge/knowledge",
+    "pages/plot1/plot1",
+    "pages/plot2/plot2",
+    "pages/plot3/plot3",
+    "pages/plot4/plot4",
+    "pages/plot5/plot5",
+    "pages/plot6/plot6",
+    "pages/plot7/plot7",
+    "pages/plot8/plot8",
+    "pages/plot9/plot9",
+    "pages/plot10/plot10",
+    "pages/plot11/plot11",
+    "pages/knowledge1/knowledge1",
+    "pages/knowledge2/knowledge2",
+    "pages/knowledge3/knowledge3",
+    "pages/knowledge4/knowledge4",
+    "pages/knowledge5/knowledge5"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "ECNU阳光动保",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/4.png",
+        "iconPath": "images/1.png",
+        "pagePath": "pages/map/map",
+        "text": "喂食点"
+      },
+      {
+        "selectedIconPath": "images/4.png",
+        "iconPath": "images/2.png",
+        "pagePath": "pages/knowledge/knowledge",
+        "text": "手册"
+      },
+      {
+        "selectedIconPath": "images/4.png",
+        "iconPath": "images/3.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

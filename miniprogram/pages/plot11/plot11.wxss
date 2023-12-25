@@ -1,0 +1,47 @@
+/* pages/plot11/plot11.wxss */
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-view {
+  flex: 1;
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+
+.background-image {
+  background-image: url('https://6563-ecnuanimal-8gjgfbk49bd27e44-1323199857.tcb.qcloud.la/bk.png?sign=67b89520c816120996ca07191871ec15&t=1702901627');
+  background-size: cover;
+  flex: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content-container {
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.main-image,
+.map-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.location-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}

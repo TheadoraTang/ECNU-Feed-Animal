@@ -1,0 +1,14 @@
+<!--pages/plot6/plot6.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">五舍内</text>
+</view>
+<view class="background-image">
+<view class="content-container">
+  <image class="main-image" src="/images/五舍.jpg"></image>
+  <!-- <image class="map-image" src="/images/五舍地图.jpg"></image> -->
+  <text class="location-text">
+    位置在五舍院子里。（由于地图上无法显示无舍内部的结构所以没有地图标注）
+  </text>
+</view>
+</view>

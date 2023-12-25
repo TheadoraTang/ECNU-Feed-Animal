@@ -1,0 +1,17 @@
+<!--pages/plot8/plot8.wxml-->
+<view class="page">
+  <scroll-view class="scroll-view" scroll-y="true" style="height: 100vh;">
+  <view class="header">
+    <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+    <text class="header-title">河西食堂+浴室</text>
+  </view>
+    <view class="background-image"></view>
+    <view class="content-container">
+      <image class="main-image" src="/images/河西食堂.jpg"></image>
+      <image class="map-image" src="/images/河西食堂地图.jpg"></image>
+      <text class="location-text">
+        河西食堂喂食点在河西食堂靠近菜鸟驿站。（表情包所在位置）
+      </text>
+    </view>
+  </scroll-view>
+</view>

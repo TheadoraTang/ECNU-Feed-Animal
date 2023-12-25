@@ -1,0 +1,14 @@
+<!--pages/plot9/plot9.wxml-->
+<view class="header">
+  <image class="back-icon" src="/images/back.png" bindtap="navigateBack"></image>
+  <text class="header-title">六舍内</text>
+</view>
+<view class="background-image">
+<view class="content-container">
+  <image class="main-image" src="/images/六舍.jpg"></image>
+  <image class="map-image" src="/images/六舍地图.jpg"></image>
+  <text class="location-text">
+    位置在六舍进门小屋子的右手方，旁边有很多猫窝。（表情包所在位置）
+  </text>
+</view>
+</view>

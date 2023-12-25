@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.title {
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.scroll-view {
+  width: 100%; /* Adjust the width as needed */
+  /* border: 5px solid rgba(255, 255, 255, 0.301); */
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+
+.article-item {
+  padding: 20rpx;
+  font-size: 45rpx;
+  text-align: center;
+  color: #0b6bd1;
+  cursor: pointer;
+  /* border-bottom: 3px solid rgba(255, 255, 255, 0.301); */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  /* background-color: rgba(255, 255, 255, 0.301); 设置乳白色底色 */
+}
+
+.article-item:last-child {
+  border-bottom: none;
+}

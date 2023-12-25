@@ -1,0 +1,24 @@
+/* pages/knowledge1/knowledge1.wxss */
+
+.background-image {
+  background-image: url('https://6563-ecnuanimal-8gjgfbk49bd27e44-1323199857.tcb.qcloud.la/bk1.png?sign=3b5618b79d16375768d346695c569d39&t=1702900774');
+  /* opacity: 0.5; 设置透明度为 0.5 */
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure it is behind other elements */
+}
+.content-container {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.knowledge-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333; /* Dark text color */
+  text-align: justify; /* Justify text for better readability */
+}
