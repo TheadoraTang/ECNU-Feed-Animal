@@ -1,0 +1,11 @@
+本次作业选择的是赛道一
+
+作品访问方式：
+利用微信开发者工具打开animal文件夹，即可使用。（但云资源已经过期，如果想要完整的功能需要自己搭配微信小程序的官方云环境，详情可见pdf中的介绍）
+
+
+作品展示B站链接：
+作品名称：云计算作业展示 
+作品链接：https://www.bilibili.com/video/BV14i4y1i7bT/?share_source=copy_web&vd_source=ca028d0d5f8c2b7411989dc12407a006
+
+作品源码：animal文件夹中所有的文件
